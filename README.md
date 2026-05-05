@@ -3,6 +3,10 @@
 [![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
 [![License: MIT][license_badge]][license_link]
 
+> I kept rewriting the same JWT login / refresh / restore flow for every
+> Flutter app I built, so I extracted it into a package. Open-sourcing it
+> in case someone else finds it useful.
+
 JWT login, refresh, logout, and session restore on top of an injectable HTTP
 client. Tokens are persisted via `secure_token_storage`.
 
