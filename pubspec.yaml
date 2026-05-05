@@ -1,0 +1,25 @@
+name: simple_auth_kit
+description: JWT login, refresh, logout, and session restore on top of an injectable HTTP client.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.11.0
+  flutter: ^3.41.0
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+  secure_token_storage: ^0.1.0
+  simple_api_client:
+    git:
+      url: https://github.com/kaysman/simple_api_client.git
+      ref: main
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http: ^1.6.0
+  mocktail: ^1.0.4
+  very_good_analysis: ^10.2.0
